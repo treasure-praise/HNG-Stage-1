@@ -13,7 +13,7 @@ const daysOfWeek = [
   "Saturday",
 ];
 
-const PORT = proces.env.PORT || 8000;
+const PORT = process.env.PORT || 8000;
 
 app.get("/api", (req, res) => {
   const { slack_name, track } = req.query;
